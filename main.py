@@ -11,6 +11,7 @@ for i in range(0,4):
             critico[i] += 1
         media[i] += temperaturas[i][j]
 
+    print(" ")
     print(f"Sala {i + 1}\nMedia:",media[i] / 4)
     print("critico:", critico[i])
     if critico[i] > critico[i-1]:
