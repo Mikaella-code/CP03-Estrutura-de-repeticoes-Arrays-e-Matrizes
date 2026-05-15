@@ -17,4 +17,5 @@ for i in range(0,4):
     if critico[i] > critico[i-1]:
         valorCritico = i + 1
 
+print(" ")
 print("\nSala com maior risco: sala", valorCritico)
